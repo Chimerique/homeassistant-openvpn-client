@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Copyright (c) 2016-2018 by Lars Klitzke, lars@klitzke-web.de
+# Copyright (c) 2020-2020 by Cyril HR (based on Lars Klitzke, lars@klitzke-web.de)
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -33,8 +33,8 @@ setuptools.setup(
     description='',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author='Lars Klitzke',
-    author_email='Lars@klitzke-web.de',
+    author='Cyril HR (based on Lars Klitzke)',
+    author_email='hrcodeur@gmail.com',
     entry_points={
         'console_scripts': [
             NAME + ' = openvpnclient.backend.app:run',

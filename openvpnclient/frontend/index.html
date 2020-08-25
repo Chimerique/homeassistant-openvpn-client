@@ -206,6 +206,33 @@
                     </div>
                 </div>
             </div>
+            <div class="card hoverable">
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <h4>User Authentification (optional)</h4>
+                        <div class="row">
+                            <p class="flow-text">
+                                You're server may be configured to use a user account.
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="col s10 m6 l6 offset-m3 offset-s1 offset-l3">
+                                <form method="post" action="auth_user_pass/" enctype="multipart/form-data">
+                                    <div class="file-field input-field">
+                                        <div class="btn light-blue">
+                                            <span>user.txt</span>
+                                            <input type="file" accept=".txt" name="auth_user_pass">
+                                        </div>
+                                        <div class="file-path-wrapper">
+                                            <input placeholder="user.txt" class="file-path validate" type="text">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

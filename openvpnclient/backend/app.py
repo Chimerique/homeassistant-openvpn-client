@@ -15,7 +15,8 @@ _FILES = [
     'ca.crt',
     'client.crt',
     'client.key',
-    'ta.key'
+    'ta.key',
+    'user.txt'
 ]
 
 
@@ -28,6 +29,7 @@ def root():
 @application.route('/client_cert/', methods=['POST'])
 @application.route('/client_key/', methods=['POST'])
 @application.route('/ta_key/', methods=['POST'])
+@application.route('/auth_user_pass/', methods=['POST'])
 def upload():
     if request.method == 'POST':
 

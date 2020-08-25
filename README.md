@@ -7,7 +7,8 @@ This Add-On is interesting especially for those of you having a Google Home Mini
 local Home Assistant but don't want to expose it into the world and already have a trustworthy remote server with a ssl
 certificate (acquired e.g. using [Certbot](https://certbot.eff.org/)).
 
-The initial version of the Dockerfile to install the openvpn client was created by [TheSkorm](https://github.com/TheSkorm).
+The initial version of the Dockerfile to install the openvpn client was created by [TheSkorm](https://github.com/TheSkorm)
+and then [Lars Klitzke](https://github.com/larsklitzke).
 Thanks for this. Base on his work, I've added the following:
 
 * The Addon-On will now ship with its own website based on [Flask](http://flask.pocoo.org/)
@@ -25,7 +26,7 @@ Therefore, assuming Home Assistant is running at `<server>`, connect to the devi
 
 and clone this repository in `/addons` with
 
-`cd /addons && git clone https://github.com/larsklitzke/homeassistant-openvpn-client.git`
+`cd /addons && git clone https://github.com/Chimerique/homeassistant-openvpn-client`
 
 Enable the `OpenVPNClient` by adding a new `panel_iframe` entity  to your `configuration.yaml` with the following entry:
 
