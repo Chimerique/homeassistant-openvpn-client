@@ -2,12 +2,12 @@
 image: docker:latest
 
 variables:
-  ADDON_GITHUB_REPO: larsklitzke/homeassistant-addons/addon-openvpnclient
+  ADDON_GITHUB_REPO: chimerique/addon-openvpnclient
   ADDON_SLUG: homeassistant-openvpnclient
   ADDON_TARGET: openvpnclient
   ADDON_QEMU: "true"
   DOCKER_DRIVER: overlay2
-  DOCKER_HUB_ORG: larsklitzke
+  DOCKER_HUB_ORG: chimerique
   GITLAB: https://gitlab.klitzke-web.de
 
 stages:
